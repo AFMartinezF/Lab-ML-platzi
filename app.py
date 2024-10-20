@@ -5,9 +5,9 @@ import pandas as pd
 
 
 # Cargar las características, el modelo y las equivalencias de columnas desde archivos creados con la libreria pickle
-FEATURES = pickle.load(open("churn/models/features.pk", "rb"))
-model = pickle.load(open("churn/models/model.pk", "rb"))
-column_equivalence = pickle.load(open("churn/models/column_equivalence.pk", "rb"))
+FEATURES = pickle.load(open("models/features.pk", "rb"))
+model = pickle.load(open("models/model.pk", "rb"))
+column_equivalence = pickle.load(open("models/column_equivalence.pk", "rb"))
 
 
 app = Flask(__name__)

@@ -29,13 +29,14 @@ curl --location --request GET 'http://localhost:3001/query?feats=465,France,Fema
 
 Si todo esta bien, deberías de obtener una respuesta así
 ```
-{"response": [1]}
+{"response": [0]}
 ```
 
 #### Equipo
 
 * Juan Perez Nombrefalso
 * Ricardo Alanís Tamez
+* Angel Martínez
 
 #### Contribuir
 
